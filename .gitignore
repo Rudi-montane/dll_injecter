@@ -1,0 +1,39 @@
+# Visual Studio Dateien ignorieren
+.vs/
+*.vcxproj.user
+*.suo
+*.user
+*.ncb
+*.log
+*.tlog
+*.lastbuildstate
+
+# Build-Ordner ignorieren
+Debug/
+Release/
+x64/
+x86/
+bin/
+obj/
+build/
+
+# Kompilierte Dateien ignorieren
+*.exe
+*.dll
+*.lib
+*.pdb
+*.ilk
+*.o
+*.obj
+*.so
+*.a
+
+# CMake temporäre Dateien ignorieren
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Sonstige Systemdateien ignorieren
+.DS_Store
+Thumbs.db
